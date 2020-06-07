@@ -1,0 +1,30 @@
+{
+  "name": "rest-hapi-demo",
+  "version": "1.0.0",
+  "description": "A simple demonstration of the rest-hapi plugin.",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JKHeadley/rest-hapi-demo.git"
+  },
+  "keywords": [
+    "rest-hapi"
+  ],
+  "author": "Justin Headley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JKHeadley/rest-hapi-demo/issues"
+  },
+  "homepage": "https://github.com/JKHeadley/rest-hapi-demo#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.0",
+    "hapi-auth-jwt2": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.2",
+    "rest-hapi": "^2.0.0"
+  }
+}
